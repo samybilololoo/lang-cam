@@ -1,4 +1,4 @@
-📂 mon-projet/
+📂 lang-project/
 │── 📂 backend/          # Contient tout le code backend (Node.js, Express, MongoDB)
 │   ├── 📂 controllers/  # Gère la logique métier (CRUD, traitement des requêtes)
 │   ├── 📂 models/       # Définit les schémas de MongoDB avec Mongoose

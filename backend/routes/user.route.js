@@ -1,8 +1,7 @@
 const express =require('express');
-const User = require('../backend/models/user.model');
 const router =express.Router();
-const {getUsers, getUser, createUser, updatedUser, deleteUser} = require('../backend/controllers/user.controller.js');
-
+const User = require('../models/user.model');
+const { getUsers, getUser, createUser, updatedUser, deleteUser } = require('../controllers/user.controller');
 
 router.get('/', getUsers);
 router.get("/:id", getUser);
