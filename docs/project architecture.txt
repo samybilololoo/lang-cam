@@ -1,0 +1,33 @@
+📂 mon-projet/
+│── 📂 backend/          # Contient tout le code backend (Node.js, Express, MongoDB)
+│   ├── 📂 controllers/  # Gère la logique métier (CRUD, traitement des requêtes)
+│   ├── 📂 models/       # Définit les schémas de MongoDB avec Mongoose
+│   ├── 📂 routes/       # Définit les routes API pour chaque ressource
+│   ├── 📂 config/       # Configuration (connexion MongoDB, variables d'env)
+│   ├── 📂 middleware/   # Middleware (authentification, validation, logs)
+│   ├── 📂 utils/        # Fonctions utilitaires (helpers)
+│   ├── 📂 tests/        # Tests unitaires et d'intégration
+│   ├── .env            # Variables d'environnement (PORT, MONGO_URI, etc.)
+│   ├── index.js        # Point d'entrée principal de l'API (Express)
+│   ├── package.json    # Dépendances et scripts npm
+│   └── README.md       # Documentation backend
+│
+│── 📂 frontend/         # Contient le code frontend (Vue.js)
+│   ├── 📂 src/          # Code source Vue.js
+│   │   ├── 📂 assets/   # Images, styles, fichiers statiques
+│   │   ├── 📂 components/ # Composants réutilisables Vue.js
+│   │   ├── 📂 views/    # Pages Vue.js
+│   │   ├── 📂 router/   # Gestion des routes avec Vue Router
+│   │   ├── 📂 store/    # Gestion d'état (Pinia/Vuex)
+│   │   ├── App.vue     # Composant racine
+│   │   ├── main.js     # Point d'entrée de l'application Vue.js
+│   │   ├── api.js      # Gestion des appels API via Axios
+│   ├── public/         # Fichiers publics (favicon, index.html)
+│   ├── package.json    # Dépendances et scripts npm du frontend
+│   ├── vite.config.js  # Configuration Vite
+│   └── README.md       # Documentation frontend
+│
+│── 📂 docs/             # Documentation technique et fonctionnelle
+│── 📂 scripts/          # Scripts d'automatisation (ex: déploiement)
+│── docker-compose.yml   # Fichier Docker (si tu veux dockeriser ton projet)
+│── README.md            # Documentation générale du projet

@@ -1,10 +1,10 @@
 const express = require('express')
 const mongoose = require('mongoose');
-const User = require('./models/user.model.js');
-const userRoute = require("./routes/user.route.js")
+const User = require('./backend/models/user.model.js');
+const userRoute = require("./backend/routes/user.route.js")
 const app=express()
 
-//middleway
+//middleware
 app.use(express.json());
 app.use(express.urlencoded({extended:false}));
 
