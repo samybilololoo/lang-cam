@@ -1,14 +1,19 @@
-<script setup lang="ts">
-import UserenrolForm from './components/UserenrolForm.vue'
+<script setup>
+//import Header from './components/Header.vue';
+//import Footer from './components/Footer.vue';
+import Header from './components/Header.vue';
+import Footer from './components/Footer.vue';
 </script>
 
 <template>
   <div>
-    <UserenrolForm />
-	
+    <Header />
+    <Footer />
+    <router-view />
+    
   </div>
-  
 </template>
+
 
 <style scoped>
 .logo {
